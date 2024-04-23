@@ -1,0 +1,19 @@
+{
+    "packages": {
+        ".": {
+            "component": "php8.3",
+            "include-component-in-tag": true,
+            "release-type": "simple",
+            "include-v-in-tag": false,
+            "draft": false,
+            "prerelease": false,
+            "bumpMinorPreMajor": false,
+            "bumpPatchForMinorPreMajor": false,
+            "changelogPath": "CHANGELOG.md",
+            "versioning": "default",
+            "extra-files": [
+                "action.yml"
+            ]
+        }
+    }
+}
