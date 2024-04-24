@@ -6,7 +6,7 @@ author: 'Enes Erk <support@eneserk.de>'
 runs:
   using: 'docker'
   # x-release-please-start-version
-  image: 'docker://ghcr.io/erkenes/php-cs-fixer-action:php8.2-1.0.0'
+  image: 'docker://ghcr.io/erkenes/php-cs-fixer-action:php8.2-1.1.0'
   # x-release-please-end
 
 branding:

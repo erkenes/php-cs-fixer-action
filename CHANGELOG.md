@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/erkenes/php-cs-fixer-action/compare/php8.2-1.0.0...php8.2-1.1.0) (2024-04-24)
+
+
+### Features
+
+* Update ReadMe ([8153204](https://github.com/erkenes/php-cs-fixer-action/commit/815320495382e6b265549b77d686aba7a721837a))
+
+
+### Bug Fixes
+
+* update action name ([c84d7ab](https://github.com/erkenes/php-cs-fixer-action/commit/c84d7ab8212014c118688af09c7b75dd86825b5e))
+
 ## 1.0.0 (2024-04-24)
 
 
