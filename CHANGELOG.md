@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/erkenes/php-cs-fixer-action/compare/php8.1-1.0.0...php8.1-1.1.0) (2024-04-24)
+
+
+### Features
+
+* Update ReadMe ([6509646](https://github.com/erkenes/php-cs-fixer-action/commit/6509646ecc47c8b6178bbc62abb5c9b8d2c991b9))
+
+
+### Bug Fixes
+
+* update action name ([df9e7d8](https://github.com/erkenes/php-cs-fixer-action/commit/df9e7d84622b3114be7a58b06a79eaa8059ab05a))
+
 ## 1.0.0 (2024-04-24)
 
 
