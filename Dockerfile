@@ -1,5 +1,5 @@
 ARG PHP_CS_FIXER_VERSION
-ARG PHP_VERSION=8.3
+ARG PHP_VERSION=8.2
 
 FROM ghcr.io/php-cs-fixer/php-cs-fixer:${PHP_CS_FIXER_VERSION}-php${PHP_VERSION}
 
