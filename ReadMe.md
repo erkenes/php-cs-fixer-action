@@ -31,6 +31,43 @@ jobs:
         uses: erkenes/php-cs-fixer-action@main
 ```
 
+### Use a specific version of PHP
+
+You can specify the PHP version to use by adding it as a prefix to the action version.
+
+```yaml
+# .github/workflows/php-cs-fixer.yml
+
+name: PHP-CS-Fixer
+
+on:
+  pull_request:
+    types: [review_requested, ready_for_review]
+
+jobs:
+  php-cs-fixer:
+    name: PHP-CS-Fixer
+    runs-on: ubuntu-latest
+    steps:
+      -
+        uses: actions/checkout@v4
+
+      # PHP 8.3 (equal to main)
+      -
+        name: Run PHP-CS-Fixer
+        uses: erkenes/php-cs-fixer-action@php8.3-1.0.0
+
+      # PHP 8.2
+      -
+        name: Run PHP-CS-Fixer
+        uses: erkenes/php-cs-fixer-action@php8.2-1.0.0
+
+      # PHP 8.1
+      -
+        name: Run PHP-CS-Fixer
+        uses: erkenes/php-cs-fixer-action@php8.1-1.0.0
+```
+
 ### Use auto-commit
 
 To commit the changes automatically to the branch of the pull request, you can use the following configuration:
