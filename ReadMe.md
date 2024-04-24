@@ -60,7 +60,7 @@ jobs:
 
 ```bash
 docker build \
-  --build-arg "PHP_VERSION=8.3" \
+  --build-arg "PHP_VERSION=8.1" \
   --build-arg "PHP_CS_FIXER_VERSION=3.54.0" \
   --tag "erkenes/php-cs-fixer-action:local" \
   .

@@ -1,7 +1,7 @@
 {
     "packages": {
         ".": {
-            "component": "php8.3",
+            "component": "php8.1",
             "include-component-in-tag": true,
             "release-type": "simple",
             "include-v-in-tag": false,
