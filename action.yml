@@ -1,4 +1,4 @@
-name: 'PHP-CS-Fixer'
+name: 'CS-Fixer for PHP'
 
 description: 'Use PHP-CS-Fixer to fix your PHP code style.'
 author: 'Enes Erk <support@eneserk.de>'
