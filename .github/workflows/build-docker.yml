@@ -24,7 +24,7 @@ jobs:
 
       -
         name: Setup Docker buildx
-        uses: docker/setup-buildx-action@a530e948adbeb357dbca95a7f8845d385edf4438
+        uses: docker/setup-buildx-action@2ad185228a349d19414702819e06df9fa4314287
 
       -
         name: Log into registry ${{ env.REGISTRY }}
